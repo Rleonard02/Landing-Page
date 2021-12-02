@@ -4,13 +4,14 @@
 body{
     padding:0;
     margin:0;
+    background-image:url('Images/jungle.png')
 }
 
 
 .block-one{
     display:flex;
     flex-direction:column;
-    background-color:#1F2937;
+    background-color:rgba(77, 63, 41, 0.9);
     padding-left:15%;
     padding-right:15%;
     margin:0;
@@ -21,6 +22,7 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: flex-start;
+    opacity: 1;
 }
 
 .header-logo{
@@ -85,9 +87,12 @@ a {
 }
 
 .placeholder-image{
-    background-color: grey;
-    width:250px;
-    height:100px;
+    background-color: rgb(8, 7, 7);
+    width:200px;
+    height:200px;
+    padding:30px;
+    border-radius:200px;
+
 }
  .header-p{
     color:white;
